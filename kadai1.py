@@ -19,7 +19,7 @@ wavefile = "./test.wav"
 
 fs, data = read(wavefile)
 
-print "Sampling rate :", fs
+# print "Sampling rate :", fs
 
 if (data.shape[1] == 2):
     left = data[:, 0]
